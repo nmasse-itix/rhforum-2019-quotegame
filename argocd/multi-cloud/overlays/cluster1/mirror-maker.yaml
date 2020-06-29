@@ -6,8 +6,12 @@ spec:
   version: 2.5.0
   replicas: 1
   consumer:
-    bootstrapServers: https://my-cluster-kafka-bootstrap-quotegame1.apps.ocp4.itix.fr:443
+    bootstrapServers: https://my-cluster-kafka-bootstrap-quotegame2.apps.ocp4.itix.fr:443
     groupId: 'my-mirror-maker-site1'
+    tls:
+      trustedCertificates:
+        - secretName: my-cluster-site2-cluster-ca-cert
+          certificate: ca.crt
   producer:
     bootstrapServers: my-cluster-kafka-bootstrap:9092
   whitelist: 'quotegame-workingmemory-site2'
