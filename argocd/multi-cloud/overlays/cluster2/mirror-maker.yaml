@@ -10,7 +10,7 @@ spec:
     groupId: 'my-mirror-maker-site2'
     tls:
       trustedCertificates:
-        - secretName: my-cluster-site2-cluster-ca-cert
+        - secretName: my-cluster-site1-cluster-ca-cert
           certificate: ca.crt
   producer:
     bootstrapServers: my-cluster-kafka-bootstrap:9092
