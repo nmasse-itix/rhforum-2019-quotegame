@@ -20,7 +20,7 @@ spec:
     replicas: 3
     storage:
       type: ephemeral
-    version: 2.3.0
+    version: 2.5.0
   zookeeper:
     replicas: 3
     storage:
