@@ -4,4 +4,4 @@ metadata:
   name: quotegame-rebalancer-config
 data:
   application.properties: |-
-    %kube.priceUpdater.endpoints: http://quotegame-rebalancer-quotegame-prod.apps.cluster-paris-fb92.paris-fb92.example.opentlc.com//api/order,http://quotegame-rebalancer-quotegame-prod.apps.cluster-paris-c03a.paris-c03a.example.opentlc.com/api/order
+    %kube.priceUpdater.endpoints: http://quotegame-rebalancer-quotegame1.apps.ocp4.itix.fr/api/order,http://quotegame-rebalancer-quotegame2.apps.ocp4.itix.fr/api/order

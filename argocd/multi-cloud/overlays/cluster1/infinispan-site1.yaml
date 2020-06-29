@@ -5,8 +5,6 @@ metadata:
   labels:
     clusterName: infinispan
     infinispan_cr: infinispan
-  annotations:
-    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: tcp
 spec:
   ports:
     - name: jgroups
@@ -17,4 +15,4 @@ spec:
     app: infinispan-pod
     clusterName: infinispan
     infinispan_cr: infinispan
-  type: LoadBalancer
+  type: ClusterIP

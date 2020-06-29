@@ -11,7 +11,6 @@ spec:
             - name: SITE
               value: SITE2
             - name: EXTERNAL_ADDR
-              value: a5b510b4b361a11ea8b900ac0ebc357a-815604614.us-east-1.elb.amazonaws.com
+              value: infinispan-site2.quotegame2.svc.cluster.local
             - name: INITIAL_HOSTS
-              value: a393f6926361a11eaa3ea02f8f20088a-1762302669.eu-central-1.elb.amazonaws.com[7900],a5b510b4b361a11ea8b900ac0ebc357a-815604614.us-east-1.elb.amazonaws.com[7900]
-            
+              value: infinispan.quotegame2.svc.cluster.local[7900],infinispan-site1.quotegame1.svc.cluster.local[7900]

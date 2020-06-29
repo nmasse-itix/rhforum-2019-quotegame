@@ -57,9 +57,9 @@ spec:
             - name: SITE
               value: SITE1
             - name: EXTERNAL_ADDR
-              value: infinispan-site1.quotegame.svc.cluster.local
+              value: infinispan-site1.quotegame1.svc.cluster.local
             - name: INITIAL_HOSTS
-              value: infinispan.quotegame.svc.cluster.local[7900],infinispan-site2.quotegame.svc.cluster.local[7900]
+              value: infinispan.quotegame1.svc.cluster.local[7900],infinispan-site2.quotegame2.svc.cluster.local[7900]
             - name: INTERNAL_POD_IP
               valueFrom:
                 fieldRef:
