@@ -11,7 +11,7 @@ spec:
             - name: SITE
               value: SITE1
             - name: EXTERNAL_ADDR
-              value: infinispan-site1.quotegame1.svc.cluster.local
+              value: infinispan.quotegame1.svc.cluster.local
             - name: INITIAL_HOSTS
-              value: infinispan.quotegame1.svc.cluster.local[7900],infinispan-site2.quotegame2.svc.cluster.local[7900]
+              value: infinispan.quotegame1.svc.cluster.local[7900],infinispan.quotegame2.svc.cluster.local[7900]
             
